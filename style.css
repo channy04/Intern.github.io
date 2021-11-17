@@ -1,0 +1,278 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border box;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(63, 62, 62, 0.5)50%,rgba(63, 62, 62, 0.5)50%),url(https://lornemarrfitafter45.ca/wp-content/uploads/2020/07/shutterstock_293965973-scaled.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.btn1{
+    width:250px;
+    height:50px;
+    background:rgb(230, 62, 84);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    margin-left: 150px;
+    border-radius: 30px;
+}
+.icon{
+    width: 200px;
+    height: 100px;
+    float: left;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 200px;
+    color: white;
+    font-size: 100%;
+
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 35px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold ;
+
+}
+ul li a:hover{
+    color: tomato;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto ;
+    color: white;
+    position: relative;
+    top:-500px;
+
+}
+
+.content .para{
+    
+    padding-left: 20px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px ;
+    line-height: 30px;
+    margin-top: 4%;
+    letter-spacing: 2px;
+}
+
+.content h1{
+ font-size: 40px;
+ padding-left:  20px;
+ margin-top: 50px;
+}
+
+.form{
+    width: 350px;
+    height: 500px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -150px;
+    left: 750px;
+    border-radius: 10px;
+    padding: 25px;
+    opacity: 60%;
+
+}
+
+.form h4{
+    width: 220px;
+    color: white;
+    align-items: flex-end;
+    padding: 8px;
+    border-radius: 10px;
+
+}
+.form input{
+    width: 220px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid red ;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+
+    
+}
+
+.btn{
+    width:240px;
+    height: 35px;
+    background: red;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+}
+
+
+body{
+    font-family: 'Poppins'; 
+    
+}
+
+h2{
+    font-size:auto;
+}
+h4{
+    color: purple;
+}
+table{
+  margin-left:155px ;
+  margin-right: 155px;
+
+}
+
+video{
+    margin-left:155px;
+    margin-top: 21.875%;
+}
+
+.section{
+    margin-left: 200px;
+    width: 80%;
+    height: 100%;
+    margin-right: 200px;
+    font-size: 20px;
+    right: 200px;
+   
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2{
+    margin-left: 200px;
+    margin-right: 180px; 
+    margin-top: 80px;
+}
+h4{
+    color: black;
+}
+
+
+.talk{
+    background-color: white;
+    margin-top: 100px;
+    align-items: center;
+
+}
+
+.right{
+    float:right;
+    font-size: 20px;
+    align-items: center;
+    margin-right: 190PX;
+    background-color: white;
+    
+}
+
+.left{
+    float:left;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 190px;
+    background-color: white;
+
+}
+.click{
+    
+    max-width: 50vw;
+    height: 50vh;
+}
+.info{
+    font-size: 15px;
+}
+.row{
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.row h5{
+    font-size: 20px;
+}
+
+.col2 h4{
+    font-size: 30px;
+}
+
+.Lastform{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://www.canstar.com.au/wp-content/uploads/2017/09/Best-Health-Fitness-Apps-for-2017.jpg");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+    margin-bottom: 15%;
+   
+
+}
+.Lform{
+    text-align: center;
+    color:tomato;
+    font-size: 38px;
+    padding-top: 150px;
+}
+
+.form2{
+    
+   
+   
+}
+.Lform h4{
+    padding-top: 150px;
+    font-size: 25px;
+    color: white;
+}
+.Form2 input{
+    width: 450px;
+    height: 50px;
+    border-bottom: 1px solid red ;
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 500px;
+    
+}
+.btn2{
+    width:450px;
+    height:50px;
+    background:rgb(230, 62, 84);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    margin-left: 500px;
+    border-radius: 10px;
+}
+
+
