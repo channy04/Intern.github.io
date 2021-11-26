@@ -11,6 +11,9 @@
     <title><b>Launchkit Fitness</b></title>
 </head>
 <body>
+    <script>
+        window.alert("Hello Channy");
+        </script>
    <div class="main">
        <div class="icon">
            <h2>Launchkit</h2>
@@ -114,7 +117,7 @@ on the right foot.</h1>
     <br><br><br>
     
       <div class="click">
-        <img src="https://get.wallhere.com/photo/sports-red-sun-rays-shoes-running-jogging-asphalt-play-leg-footwear-recreation-human-action-outdoor-recreation-56355.jpg" width="1550" height="800">
+        <img src="https://get.wallhere.com/photo/sports-red-sun-rays-shoes-running-jogging-asphalt-play-leg-footwear-recreation-human-action-outdoor-recreation-56355.jpg" width="1800" height="800">
       </div>
     </div>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -165,13 +168,26 @@ on the right foot.</h1>
              <h4>JION NOW - GET YOUR FIRST 3 SESSIONS ON US</h4>
          </div>
          <div class="Form2">
-             <input type="name" placeholder="Your Name"><br>
-             <input type="email" placeholder="Email Address"><br>
+
+             <input type="name" id=name placeholder="Your Name"><br>
+             <input type="email" id=email placeholder="Email Address"><br>
              <button class="btn2" > <a href="#">Let's Work Out >></a></button>
 
          </div>
         
      </div>  
+     <script>
+         var Form2 = document.getElementById('Form2')
+         Form2.addEventListener('submit',function(event){
+             event.preventDefault()
+              var name = document.getElementById('name').value
+              console.log(name)
+              var email = document.getElementById('email').value
+              console.log('email')
+              
+
+         })
+     </script>
         
     
 

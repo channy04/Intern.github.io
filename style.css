@@ -9,6 +9,7 @@
     background-position: center;
     background-size: cover;
     height: 109vh;
+    opacity: 95%;
 }
 
 .btn1{
@@ -244,11 +245,7 @@ h4{
     padding-top: 150px;
 }
 
-.form2{
-    
-   
-   
-}
+
 .Lform h4{
     padding-top: 150px;
     font-size: 25px;
@@ -258,10 +255,11 @@ h4{
     width: 450px;
     height: 50px;
     border-bottom: 1px solid red ;
-    color: white;
-    font-size: 15px;
+    color: black;
+    font-size: 21px;
     margin-top: 30px;
-    margin-left: 500px;
+    margin-left: 580px;
+    border-radius:10px ;
     
 }
 .btn2{
@@ -271,8 +269,13 @@ h4{
     border: none;
     margin-top: 30px;
     font-size: 18px;
-    margin-left: 500px;
+    margin-left: 580px;
     border-radius: 10px;
+
+
+    
 }
+
+
 
 
