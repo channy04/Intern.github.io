@@ -20,18 +20,18 @@
        </div>
        <div class="menu">
            <ul>
-               <li><a href="#">Home</a></li>
-               <li><a href="#">About</a></li>
-               <li><a href="#">Trainer</a></li>
-               <li><a href="#">Plans</a></li>
-               <li><a href="#">FAQ</a></li>
+               <li><a href="#home">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#train">Trainer</a></li>
+               <li><a href="#plan">Plans</a></li>
+               <li><a href="#faq">FAQ</a></li>
                <li><a href="#">Pages</a></li>
                <button class="btn1" > <a href="#">Built Yours >></a></button>
            </ul>
        </div>
        </div>
        <div class="content">
-           <h1>Start off the new year<br>
+           <h1 id="home">Start off the new year<br>
 on the right foot.</h1>
             <p class="para">Studies have shown that those who<br> participate in group fitness are more<br> dedicated and get better results.</p>
            <div class="form">
@@ -49,7 +49,7 @@ on the right foot.</h1>
    </div>
 
     <td>
-        <h2 align="center" style="font-size: 35px;"><b>Inclusive and aaffordable group fitness for everyone.</b></h2>
+        <h2 id=about align="center" style="font-size: 35px;"><b>Inclusive and aaffordable group fitness for everyone.</b></h2>
         <br><h4 align="center"> Our trainers empower members of all shapes and sizes to become healthier, happier, and more confident</h4>
     </td>
     <br><br>
@@ -92,7 +92,7 @@ on the right foot.</h1>
         <img src="http://launchkit.mediumra.re/img/fit6.jpg" align="right" width="500" height="350">
         </section>
         <section class="left-section2">
-                <h1 style="font-size: 34px">Meet John Wills: 
+                <h1 id="train" style="font-size: 34px">Meet John Wills: 
             <br>Sydney's favourite trainer.</h1>
             <p><br>John has worked in the fitness industry for over 15 years and in that time has trained everyone from professional athletes to recovering motor accident victims. John's philosophy is built on respect for the body and a committed work ethic.</p>
         </section>
@@ -100,7 +100,7 @@ on the right foot.</h1>
 
     <br><br><br><br><br><br>
     <div class="talk" align=center>
-            <h4> <b>KIND WORDS FROM CURRENT MEMBERS</b></h4>
+            <h4 > <b>KIND WORDS FROM CURRENT MEMBERS</b></h4>
             <br><br>
        
             <span class="right"><br>"I used to dread exercise and had an endless <br>list of excuses
@@ -127,7 +127,7 @@ on the right foot.</h1>
                
                <div class="col1">
                    <div class="p1">
-                       <h5>Is the Lunchkit Club a contract?</h5>
+                       <h5 id="faq">Is the Lunchkit Club a contract?</h5>
                       <br> <p>
                         No, you are free to come and go as you please. We don't believe in locking you into any long-term contracts. When you purchase a monthly pre-paid membership, you have 1 week to cancel for a full refund.</p>
                        </div>
@@ -170,24 +170,13 @@ on the right foot.</h1>
          <div class="Form2">
 
              <input type="name" id=name placeholder="Your Name"><br>
-             <input type="email" id=email placeholder="Email Address"><br>
+             <input type="email"id=email placeholder="Email Address"><br>
              <button class="btn2" > <a href="#">Let's Work Out >></a></button>
 
          </div>
         
      </div>  
-     <script>
-         var Form2 = document.getElementById('Form2')
-         Form2.addEventListener('submit',function(event){
-             event.preventDefault()
-              var name = document.getElementById('name').value
-              console.log(name)
-              var email = document.getElementById('email').value
-              console.log('email')
-              
-
-         })
-     </script>
+   
         
     
 
